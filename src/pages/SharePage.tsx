@@ -99,6 +99,12 @@ const SharePage: React.FC = () => {
           </Button>
         </motion.div>
       </main>
+      <footer className="w-full border-t border-border mt-4 bg-background/50">
+        <div className="container mx-auto px-4 py-4 text-center text-xs text-muted-foreground">
+          <div>All rights reserved to Pratyush Pandey</div>
+          <div>Instagram: <a href="https://instagram.com/pratyush.pandeyyy" target="_blank" rel="noreferrer" className="text-primary">@pratyush.pandeyyy</a></div>
+        </div>
+      </footer>
     </div>
   );
 };
